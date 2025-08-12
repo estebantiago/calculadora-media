@@ -69,7 +69,21 @@ margin: 0;
     background-color: rgba(28, 74, 112, 0.637);
     padding: 10px;
 
-    
+
+}
+footer {
+  font-family: var(--fonte-padrao);
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.733);
+}
+a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 480px) {
   body {
