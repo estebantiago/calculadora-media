@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>$aiba Quanto</h1>
+        <p>Faça o calculo e saiba quanto vai gastar em sua próxima viagem.</p>
+    </header>
+
+    <section>
+        <div id="calc">
+
+            <p><label for="txtkm">Distância à Percorrer:</label></p><p><input type="number" name="txtkm" id="txtkm" min="0" placeholder="Km">
+            </p>
+            <p><label for="txtpreco">Preço do Combustível:</label></p><p><input type="number" name="txtpreco" id="txtpreco" min="0" placeholder="R$"></p>
+            <p><label for="txtcons">Consumo Médio:</label></p><p><input type="number" name="txtcons" id="txtcons" min="0" placeholder="Km/L">
+            </p>
+            <p><input type="button" value="Calcular" id="btn" onclick="calcular()" ></p>
+
+        </div>
+
+        <div id="res">
+
+        </div>
+
+        <script src="./script.js"></script>
+
+    </section>
+
+
+</body>
+
+</html>

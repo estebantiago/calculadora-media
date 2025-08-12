@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+:root {
+    --fonte-padrao: 'Arial', 'Sans-serif';
+    
+}
+
+body {
+    
+    background-image:url('../imagem/estrada.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+header {
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    color: white;
+}
+
+#calc {
+    max-width: 400px;
+    min-height: 300px;
+    background-color: rgba(28, 74, 112, 0.637) ;
+    padding: 30px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+
+    
+}
+label {
+    font-family: var(--fonte-padrao);
+    color: white;
+}
+::placeholder {
+    color: aliceblue;
+}
+input:focus {
+  border-color: #140088;
+}
+input#txtkm, #txtpreco, #txtcons {
+    padding: 10px;
+    width: 20vw;
+    background-color: rgba(165, 207, 221, 0.548);
+    font-weight: bolder;
+    border-radius: 5px;
+}
+input#btn {
+padding: 5px;
+border-radius: 5px;
+display: block;
+margin: 0;
+
+
+}
+#res {
+    max-width: 440px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    margin: auto;
+    color: black;
+    font-family: var(--fonte-padrao);
+    font-weight: bolder;
+    background-color: rgba(28, 74, 112, 0.637);
+    padding: 10px;
+
+    
+}
+@media (max-width: 480px) {
+  body {
+    padding: 15px;
+  }
+
+  section {
+    padding: 15px 20px;
+    max-width: 100%;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  input[type="number"], input[type="button"] {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  #res {
+    font-size: 1.1rem;
+  }
+}
+
