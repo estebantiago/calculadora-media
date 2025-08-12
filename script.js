@@ -13,5 +13,5 @@ function calcular(){
    var dis = Number(distancia.value) / Number(consmedio.value);
    var resultado = dis * Number(precoCombust.value) ;
 
-   res.innerHTML=`Você vai gastar um total de R$ ${resultado.toFixed(2)}`;
+   res.innerHTML=`Você vai gastar uma média de R$ ${resultado.toFixed(2)}`;
 }
