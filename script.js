@@ -1,7 +1,7 @@
-var distancia = document.getElementById('txtkm');
-var precoCombust = document.querySelector('input#txtpreco');
-var consmedio = document.querySelector('input#txtcons');
-var res = document.querySelector('div#res');
+let distancia = document.getElementById('txtkm');
+let precoCombust = document.querySelector('input#txtpreco');
+let consmedio = document.querySelector('input#txtcons');
+let res = document.querySelector('div#res');
 
 function calcular(){
 
