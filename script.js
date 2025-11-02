@@ -10,8 +10,8 @@ function calcular(){
       return;
    }
    
-   var dis = Number(distancia.value) / Number(consmedio.value);
-   var resultado = dis * Number(precoCombust.value) ;
+   let dis = Number(distancia.value) / Number(consmedio.value);
+   let resultado = dis * Number(precoCombust.value) ;
 
    res.innerHTML=`Você vai gastar uma média de R$ ${resultado.toFixed(2)}`;
 }
